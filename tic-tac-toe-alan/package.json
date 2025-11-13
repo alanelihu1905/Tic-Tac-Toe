@@ -1,0 +1,23 @@
+{
+  "name": "tic-tac-toe-alan",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "homepage": "https://alanelihu1905.github.io/Tic-Tac-Toe",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build && cp dist/index.html dist/404.html",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "gh-pages": "^6.1.1",
+    "vite": "^5.4.8"
+  }
+}
